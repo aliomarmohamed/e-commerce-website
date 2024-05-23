@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png";
+import footerLogo from "../../assets/تكامل.png";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
     FaFacebook,
@@ -20,19 +20,19 @@ const BannerImg = {
 };
 const FooterLinks = [
     {
-        title: "Home",
+        title: "الرئيسية",
         link: "/#",
     },
     {
-        title: "About",
+        title: "تواصل معنا",
         link: "/#about",
     },
     {
-        title: "Contact",
+        title: "الاسئلة الشائعة",
         link: "/#contact",
     },
     {
-        title: "Blog",
+        title: "الدعم الفني بلغة الاشارة        ",
         link: "/#blog",
     },
 ];
@@ -42,14 +42,15 @@ const Footer = () => {
             <div className="container">
                 <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
                     {/* company details */}
-                    <div className="py-8 px-4">
-                        <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-                            <img src={footerLogo} alt="" className="max-w-[50px]" />
-                            Shopup
-                  </h1>
+                    <div className="py-4 px-4">
+                        <h1 className="sm:text-5x5 text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
+                            <img src={footerLogo} alt="" className="max-w-[120px]" />
+
+                        </h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-                            beatae ea recusandae blanditiis veritatis.
+                            المؤسسة العامة للتدريب التقني والمهني
+
+                             Technical and Vocational Training Corporation.
             </p>
                     </div>
                     {/* Footer Links */}
@@ -57,7 +58,7 @@ const Footer = () => {
                         <div>
                             <div className="py-8 px-4">
                                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                                    Important Links
+                                    روابط مهمة
                 </h1>
                                 <ul className="flex flex-col gap-3">
                                     {FooterLinks.map((link) => (
@@ -74,7 +75,7 @@ const Footer = () => {
                         <div>
                             <div className="py-8 px-4">
                                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                                    Links
+                                    المؤسسة
                 </h1>
                                 <ul className="flex flex-col gap-3">
                                     {FooterLinks.map((link) => (
@@ -105,11 +106,11 @@ const Footer = () => {
                             <div className="mt-6">
                                 <div className="flex items-center gap-3">
                                     <FaLocationArrow />
-                                    <p>Ali, Made By Me</p>
+                                    <p>المؤسسة العامة للتدريب التقني والمهني</p>
                                 </div>
                                 <div className="flex items-center gap-3 mt-3">
                                     <FaMobileAlt />
-                                    <p>+20 34567</p>
+                                    <p>الدعم الفني</p>
                                 </div>
                             </div>
                         </div>

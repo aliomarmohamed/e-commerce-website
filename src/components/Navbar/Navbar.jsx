@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/تكامل.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -8,44 +8,44 @@ import DarkMode from "./DarkMode";
 const Menu = [
     {
         id: 1,
-        name: "Home",
+        name: "الرئيسية",
         link: "/#",
     },
     {
         id: 2,
-        name: "Top Rated",
+        name: "الدخول في الخدمة",
         link: "/#services",
     },
     {
         id: 3,
-        name: "Kids Wear",
+        name: "الخدمات الرقمية",
         link: "/#",
     },
     {
         id: 3,
-        name: "Mens Wear",
+        name: "الخدمات الاكثر استخداما",
         link: "/#",
     },
     {
         id: 3,
-        name: "Electronics",
+        name: "تعرف علي المملكة",
         link: "/#",
     },
 ];
 const DropdownLinks = [
     {
         id: 1,
-        name: "Trending Products",
+        name: "تواصل معنا",
         link: "/#",
     },
     {
         id: 2,
-        name: "Best Selling",
+        name: "اتصل بنا",
         link: "/#",
     },
     {
         id: 3,
-        name: "Top Rated",
+        name: "الدعم الفني",
         link: "/#",
     },
 ];
@@ -58,10 +58,10 @@ const Navbar = ({ handleOrderPopup }) => {
             <div className="bg-primary/40 py-2">
                 <div className="container flex justify-between items-center">
                     <div>
-                        <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-                            <img src={Logo} alt="Logo" className="w-10" />
-                            Shopup
-              </a>
+                        <a href="#" className="font-bold text-3x3 sm:text-4x4 flex gap-2">
+                            <img src={Logo} alt="Logo" className="w-20" />
+
+                        </a>
                     </div>
 
                     {/* search bar */}
@@ -107,7 +107,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     {/* Simple Dropdown and Links */}
                     <li className="group relative cursor-pointer">
                         <a href="#" className="flex items-center gap-[2px] py-2">
-                            Trending Products
+                            للتواصل
               <span>
                                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                             </span>

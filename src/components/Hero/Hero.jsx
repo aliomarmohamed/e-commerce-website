@@ -1,7 +1,7 @@
 import React from 'react'
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/hero/ريان1.jpg";
+import Image2 from "../../assets/hero/ريان2.jpg";
+import Image3 from "../../assets/hero/ريان1.jpg";
 import Slider from "react-slick";
 
 
@@ -9,23 +9,23 @@ const ImageList = [
     {
         id: 1,
         img: Image1,
-        title: "Upto 50% off on all Men's Wear",
+        title: "",
         description:
-            "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "",
     },
     {
         id: 2,
         img: Image2,
-        title: "30% off on all Women's Wear",
+        title: " ",
         description:
-            "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            " ",
     },
     {
         id: 3,
         img: Image3,
-        title: "70% off on all Products Sale",
+        title: "",
         description:
-            "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            " ",
     },
 ];
 const Hero = ({ handleOrderPopup }) => {
@@ -45,7 +45,7 @@ const Hero = ({ handleOrderPopup }) => {
     return (
         <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
             {/* background pattern */}
-            <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
+            <div className="h-[700] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
             {/* hero section */}
             <div className="container pb-8 sm:pb-0">
                 <Slider {...settings}>
@@ -79,7 +79,7 @@ const Hero = ({ handleOrderPopup }) => {
                                             onClick={handleOrderPopup}
                                             className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                                         >
-                                            Order Now
+                                            خدماتنا
                     </button>
                                     </div>
                                 </div>

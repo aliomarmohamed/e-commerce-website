@@ -1,30 +1,30 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/shirt/ريان4.png";
+import Img2 from "../../assets/shirt/ريان4.png";
+import Img3 from "../../assets/shirt/ريان4.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
     {
         id: 1,
         img: Img1,
-        title: "Casual Wear",
+        title: "طلب زيارة شخصية",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة            .",
     },
     {
         id: 2,
         img: Img2,
-        title: "Printed shirt",
+        title: "طلب تأشيرة حج        ",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            " هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة            .",
     },
     {
         id: 3,
         img: Img3,
-        title: "Women shirt",
+        title: "تأكيد اصدار شهادة صحية        ",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            " هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية            .",
     },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -34,14 +34,13 @@ const TopProducts = ({ handleOrderPopup }) => {
                 {/* Header section */}
                 <div className="text-left mb-24">
                     <p data-aos="fade-up" className="text-sm text-primary">
-                        Top Rated Products for you
+                        خدماتنا
                 </p>
                     <h1 data-aos="fade-up" className="text-3xl font-bold">
-                        Best Products
+                        الخدمات الاكثر استخداما
                 </h1>
                     <p data-aos="fade-up" className="text-xs text-gray-400">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-                        asperiores modi Sit asperiores modi
+                        اكثر الخدمات استخداما علي موقعنا
           </p>
                 </div>
                 {/* Body section */}
@@ -76,7 +75,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                                     className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                                     onClick={handleOrderPopup}
                                 >
-                                    Order Now
+                                    المزيد
                 </button>
                             </div>
                         </div>

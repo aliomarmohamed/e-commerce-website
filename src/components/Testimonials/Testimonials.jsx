@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
     {
         id: 1,
-        name: "Victor",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+        name: "محمد",
+        text: " خدمة مميزة",
         img: "https://picsum.photos/101/101",
     },
     {
         id: 2,
-        name: "Satya Nadella",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+        name: "عمر",
+        text: "بارك الله فيكم وجزاكم خبرا",
         img: "https://picsum.photos/102/102",
     },
     {
         id: 3,
-        name: "Virat Kohli",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+        name: "خالد",
+        text: "في تقدم ان شاء الله",
         img: "https://picsum.photos/104/104",
     },
     {
         id: 5,
-        name: "Sachin Tendulkar",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+        name: "حمادة",
+        text: "جزاكم الله خيرا",
         img: "https://picsum.photos/103/103",
     },
 ];
@@ -72,14 +72,13 @@ const Testimonials = () => {
                 {/* header section */}
                 <div className="text-center mb-10 max-w-[600px] mx-auto">
                     <p data-aos="fade-up" className="text-sm text-primary">
-                        What our customers are saying
+                        ماذا يقول عملاؤنا
                   </p>
                     <h1 data-aos="fade-up" className="text-3xl font-bold">
-                        Testimonials
+                        التوصيات
                   </h1>
                     <p data-aos="fade-up" className="text-xs text-gray-400">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-                        asperiores modi Sit asperiores modi
+                        الق نظرة علي اراء عملاؤنا بشان الخدمات التي نقدمها
           </p>
                 </div>
 
