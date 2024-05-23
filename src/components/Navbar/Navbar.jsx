@@ -58,10 +58,17 @@ const Navbar = ({ handleOrderPopup }) => {
             <div className="bg-primary/40 py-2">
                 <div className="container flex justify-between items-center">
                     <div>
+<<<<<<< HEAD
                         <a href="#" className="font-bold text-3x3 sm:text-4x4 flex gap-2">
                             <img src={Logo} alt="Logo" className="w-20" />
 
                         </a>
+=======
+                        <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+                            <img src={Logo} alt="Logo" className="w-10" />
+                            Shopup (made by ali omar)
+              </a>
+>>>>>>> 3bd49ba7061526794f524202db5d8ab05a1977c8
                     </div>
 
                     {/* search bar */}
