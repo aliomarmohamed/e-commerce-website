@@ -59,14 +59,11 @@ const Navbar = ({ handleOrderPopup }) => {
                 <div className="container flex justify-between items-center">
                     <div>
 
+                        
+
                         <a href="#" className="font-bold text-3x3 sm:text-4x4 flex gap-2">
                             <img src={Logo} alt="Logo" className="w-20" />
-
-                        </a>
-
-                        <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-                            <img src={Logo} alt="Logo" className="w-10" />
-                            Shopup (made by ali omar)
+                               (made by ali omar)
               </a>
 
                     </div>
